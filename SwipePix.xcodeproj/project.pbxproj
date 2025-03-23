@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		85623A522D8ED94B00A6BE7B /* Exceptions for "Swipy" folder in "SwipePix" target */ = {
+		85623A522D8ED94B00A6BE7B /* Exceptions for "SwipePix" folder in "SwipePix" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				App/Info.plist,
@@ -40,12 +40,12 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		85623A2C2D8ED94900A6BE7B /* Swipy */ = {
+		85623A2C2D8ED94900A6BE7B /* SwipePix */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				85623A522D8ED94B00A6BE7B /* Exceptions for "Swipy" folder in "SwipePix" target */,
+				85623A522D8ED94B00A6BE7B /* Exceptions for "SwipePix" folder in "SwipePix" target */,
 			);
-			path = Swipy;
+			path = SwipePix;
 			sourceTree = "<group>";
 		};
 		85623A432D8ED94B00A6BE7B /* SwipyTests */ = {
@@ -88,7 +88,7 @@
 		85623A212D8ED94900A6BE7B = {
 			isa = PBXGroup;
 			children = (
-				85623A2C2D8ED94900A6BE7B /* Swipy */,
+				85623A2C2D8ED94900A6BE7B /* SwipePix */,
 				85623A432D8ED94B00A6BE7B /* SwipyTests */,
 				85623A4D2D8ED94B00A6BE7B /* SwipyUITests */,
 				85623A2B2D8ED94900A6BE7B /* Products */,
@@ -121,7 +121,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				85623A2C2D8ED94900A6BE7B /* Swipy */,
+				85623A2C2D8ED94900A6BE7B /* SwipePix */,
 			);
 			name = SwipePix;
 			packageProductDependencies = (
