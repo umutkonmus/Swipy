@@ -292,7 +292,8 @@
 				DEVELOPMENT_TEAM = 6YANNN5W87;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Swipy/App/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Swipy;
+				INFOPLIST_KEY_CFBundleDisplayName = SwipePix;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -302,7 +303,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = uk.Swipy;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.SwipePix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -324,7 +325,8 @@
 				DEVELOPMENT_TEAM = 6YANNN5W87;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Swipy/App/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Swipy;
+				INFOPLIST_KEY_CFBundleDisplayName = SwipePix;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -334,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = uk.Swipy;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.SwipePix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
