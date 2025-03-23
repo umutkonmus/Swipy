@@ -24,18 +24,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		85623A2A2D8ED94900A6BE7B /* Swipy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swipy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		85623A402D8ED94B00A6BE7B /* SwipyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		85623A4A2D8ED94B00A6BE7B /* SwipyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85623A2A2D8ED94900A6BE7B /* SwipePix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipePix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85623A402D8ED94B00A6BE7B /* SwipePixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipePixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85623A4A2D8ED94B00A6BE7B /* SwipePixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipePixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		85623A522D8ED94B00A6BE7B /* Exceptions for "Swipy" folder in "Swipy" target */ = {
+		85623A522D8ED94B00A6BE7B /* Exceptions for "Swipy" folder in "SwipePix" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				App/Info.plist,
 			);
-			target = 85623A292D8ED94900A6BE7B /* Swipy */;
+			target = 85623A292D8ED94900A6BE7B /* SwipePix */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -43,7 +43,7 @@
 		85623A2C2D8ED94900A6BE7B /* Swipy */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				85623A522D8ED94B00A6BE7B /* Exceptions for "Swipy" folder in "Swipy" target */,
+				85623A522D8ED94B00A6BE7B /* Exceptions for "Swipy" folder in "SwipePix" target */,
 			);
 			path = Swipy;
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 		85623A2B2D8ED94900A6BE7B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				85623A2A2D8ED94900A6BE7B /* Swipy.app */,
-				85623A402D8ED94B00A6BE7B /* SwipyTests.xctest */,
-				85623A4A2D8ED94B00A6BE7B /* SwipyUITests.xctest */,
+				85623A2A2D8ED94900A6BE7B /* SwipePix.app */,
+				85623A402D8ED94B00A6BE7B /* SwipePixTests.xctest */,
+				85623A4A2D8ED94B00A6BE7B /* SwipePixUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		85623A292D8ED94900A6BE7B /* Swipy */ = {
+		85623A292D8ED94900A6BE7B /* SwipePix */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85623A532D8ED94B00A6BE7B /* Build configuration list for PBXNativeTarget "Swipy" */;
+			buildConfigurationList = 85623A532D8ED94B00A6BE7B /* Build configuration list for PBXNativeTarget "SwipePix" */;
 			buildPhases = (
 				85623A262D8ED94900A6BE7B /* Sources */,
 				85623A272D8ED94900A6BE7B /* Frameworks */,
@@ -123,16 +123,16 @@
 			fileSystemSynchronizedGroups = (
 				85623A2C2D8ED94900A6BE7B /* Swipy */,
 			);
-			name = Swipy;
+			name = SwipePix;
 			packageProductDependencies = (
 			);
 			productName = Swipy;
-			productReference = 85623A2A2D8ED94900A6BE7B /* Swipy.app */;
+			productReference = 85623A2A2D8ED94900A6BE7B /* SwipePix.app */;
 			productType = "com.apple.product-type.application";
 		};
-		85623A3F2D8ED94B00A6BE7B /* SwipyTests */ = {
+		85623A3F2D8ED94B00A6BE7B /* SwipePixTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85623A582D8ED94B00A6BE7B /* Build configuration list for PBXNativeTarget "SwipyTests" */;
+			buildConfigurationList = 85623A582D8ED94B00A6BE7B /* Build configuration list for PBXNativeTarget "SwipePixTests" */;
 			buildPhases = (
 				85623A3C2D8ED94B00A6BE7B /* Sources */,
 				85623A3D2D8ED94B00A6BE7B /* Frameworks */,
@@ -146,16 +146,16 @@
 			fileSystemSynchronizedGroups = (
 				85623A432D8ED94B00A6BE7B /* SwipyTests */,
 			);
-			name = SwipyTests;
+			name = SwipePixTests;
 			packageProductDependencies = (
 			);
 			productName = SwipyTests;
-			productReference = 85623A402D8ED94B00A6BE7B /* SwipyTests.xctest */;
+			productReference = 85623A402D8ED94B00A6BE7B /* SwipePixTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		85623A492D8ED94B00A6BE7B /* SwipyUITests */ = {
+		85623A492D8ED94B00A6BE7B /* SwipePixUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85623A5B2D8ED94B00A6BE7B /* Build configuration list for PBXNativeTarget "SwipyUITests" */;
+			buildConfigurationList = 85623A5B2D8ED94B00A6BE7B /* Build configuration list for PBXNativeTarget "SwipePixUITests" */;
 			buildPhases = (
 				85623A462D8ED94B00A6BE7B /* Sources */,
 				85623A472D8ED94B00A6BE7B /* Frameworks */,
@@ -169,11 +169,11 @@
 			fileSystemSynchronizedGroups = (
 				85623A4D2D8ED94B00A6BE7B /* SwipyUITests */,
 			);
-			name = SwipyUITests;
+			name = SwipePixUITests;
 			packageProductDependencies = (
 			);
 			productName = SwipyUITests;
-			productReference = 85623A4A2D8ED94B00A6BE7B /* SwipyUITests.xctest */;
+			productReference = 85623A4A2D8ED94B00A6BE7B /* SwipePixUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 85623A252D8ED94900A6BE7B /* Build configuration list for PBXProject "Swipy" */;
+			buildConfigurationList = 85623A252D8ED94900A6BE7B /* Build configuration list for PBXProject "SwipePix" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				85623A292D8ED94900A6BE7B /* Swipy */,
-				85623A3F2D8ED94B00A6BE7B /* SwipyTests */,
-				85623A492D8ED94B00A6BE7B /* SwipyUITests */,
+				85623A292D8ED94900A6BE7B /* SwipePix */,
+				85623A3F2D8ED94B00A6BE7B /* SwipePixTests */,
+				85623A492D8ED94B00A6BE7B /* SwipePixUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		85623A422D8ED94B00A6BE7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 85623A292D8ED94900A6BE7B /* Swipy */;
+			target = 85623A292D8ED94900A6BE7B /* SwipePix */;
 			targetProxy = 85623A412D8ED94B00A6BE7B /* PBXContainerItemProxy */;
 		};
 		85623A4C2D8ED94B00A6BE7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 85623A292D8ED94900A6BE7B /* Swipy */;
+			target = 85623A292D8ED94900A6BE7B /* SwipePix */;
 			targetProxy = 85623A4B2D8ED94B00A6BE7B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -482,7 +482,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swipy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swipy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipePix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwipePix";
 			};
 			name = Debug;
 		};
@@ -501,7 +501,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swipy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swipy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipePix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwipePix";
 			};
 			name = Release;
 		};
@@ -542,7 +542,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		85623A252D8ED94900A6BE7B /* Build configuration list for PBXProject "Swipy" */ = {
+		85623A252D8ED94900A6BE7B /* Build configuration list for PBXProject "SwipePix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85623A562D8ED94B00A6BE7B /* Debug */,
@@ -551,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		85623A532D8ED94B00A6BE7B /* Build configuration list for PBXNativeTarget "Swipy" */ = {
+		85623A532D8ED94B00A6BE7B /* Build configuration list for PBXNativeTarget "SwipePix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85623A542D8ED94B00A6BE7B /* Debug */,
@@ -560,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		85623A582D8ED94B00A6BE7B /* Build configuration list for PBXNativeTarget "SwipyTests" */ = {
+		85623A582D8ED94B00A6BE7B /* Build configuration list for PBXNativeTarget "SwipePixTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85623A592D8ED94B00A6BE7B /* Debug */,
@@ -569,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		85623A5B2D8ED94B00A6BE7B /* Build configuration list for PBXNativeTarget "SwipyUITests" */ = {
+		85623A5B2D8ED94B00A6BE7B /* Build configuration list for PBXNativeTarget "SwipePixUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85623A5C2D8ED94B00A6BE7B /* Debug */,
