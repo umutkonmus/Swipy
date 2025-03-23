@@ -43,7 +43,7 @@ final class MainViewController: UIViewController, MainViewInterface, Storyboarde
     }
     
     func prepareUI() {
-        imageView.image = UIImage(named: "swipy")
+        imageView.image = UIImage(named: "swipepix")
         creditStackView.isHidden = true
     }
     

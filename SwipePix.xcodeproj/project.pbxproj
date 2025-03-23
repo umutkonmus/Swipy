@@ -291,7 +291,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6YANNN5W87;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Swipy/App/Info.plist;
+				INFOPLIST_FILE = SwipePix/App/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SwipePix;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -324,7 +324,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6YANNN5W87;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Swipy/App/Info.plist;
+				INFOPLIST_FILE = SwipePix/App/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SwipePix;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
