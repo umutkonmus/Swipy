@@ -8,13 +8,15 @@ import Foundation
 
 struct Photo: Codable{
 
-    //MARK: Properties
     let id: String
     let user: User
     let urls: PhotoURLs
-    
-    //MARK: Methods
-    func getData() -> Data {
-        return Data()
-    }
+}
+
+struct User: Codable {
+    let username: String
+}
+
+struct PhotoURLs: Codable {
+    let regular: String
 }
